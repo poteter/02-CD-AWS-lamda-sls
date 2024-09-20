@@ -14,6 +14,6 @@ def handler(event, context):
                 "Content-Type": "application/json"
             },
             "body": json.dumps({
-                "sentiment ": json.dumps(sentiment)
+                "腹泻sentiment ": json.dumps(sentiment)
             })
     }
